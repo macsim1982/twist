@@ -266,12 +266,12 @@ const extendedMaterial = new extendMaterial(THREE.MeshStandardMaterial, {
       linked: true
     },
     twist_self: {
-      value: 0,
+      value: 0.5,
       mixed: true,
       linked: true
     },
     twist: {
-      value: 0,
+      value: 1,
       mixed: true,
       linked: true
     }
@@ -347,7 +347,7 @@ const camera = new THREE.PerspectiveCamera(
 
 camera.position.x = 1;
 camera.position.y = 1;
-camera.position.z = 80;
+camera.position.z = 40;
 
 scene.add(lightProbe);
 scene.add(spotLight);
