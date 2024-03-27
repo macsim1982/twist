@@ -256,7 +256,7 @@ const extendedMaterial = new extendMaterial(THREE.MeshStandardMaterial, {
       linked: true
     },
     scale: {
-      value: 1.,
+      value: 0.,
       mixed: true,
       linked: true
     },
